@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFrameworks>net462</TargetFrameworks>
+		<Company></Company>
+		<Version>1.0.0</Version>
+		<Authors>Johannes Fetz</Authors>
+		<PackageDescription>Sega Saturn renderer in .Net/WinForms</PackageDescription>
+		<RepositoryUrl>https://github.com/johannes-fetz/SegaSaturn.NET.WinForms</RepositoryUrl>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="OpenGL.Net" Version="0.8.4" />
+	  <PackageReference Include="OpenGL.Net.WinForms" Version="0.8.4" />
+	  <PackageReference Include="SegaSaturn.NET" Version="1.0.0" />
+	  <PackageReference Include="SegaSaturn.NET.Imaging" Version="1.0.0" />
+	</ItemGroup>
+
+</Project>
